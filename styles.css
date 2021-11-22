@@ -1,0 +1,16 @@
+.description {
+  background-color: rgba(244,245,247,255);
+}
+
+footer {
+  color: white;
+  background-color: rgba(45,49,78,255);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
