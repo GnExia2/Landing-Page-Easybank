@@ -1,12 +1,71 @@
+* {
+  border: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links a{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+button {
+ background-color: #4CAF50; /* Green */
+ padding: 10px 10px;
+ color: white;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 20px;
+ border-radius: 20px;
+
+}
+
+/* Hero Content */
+#hero-content {
+  width: 100%;
+  display:inline-block;
+  background-color: #fafafa;
+
+}
+
+#hero-phones {
+  position: absolute;
+  z-index: 2;
+}
+
+#hero-background {
+  position: relative;
+  z-index: 1;
+}
+
+/* Why Choose */
 .description {
   background-color: rgba(244,245,247,255);
 }
 
+/* Articles */
+
+/* Footer */
 footer {
   color: white;
   background-color: rgba(45,49,78,255);
 }
 
+
+/*  Front-End Mentor */
 .attribution {
   font-size: 11px; text-align: center;
 }
@@ -14,3 +73,5 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/*  */
